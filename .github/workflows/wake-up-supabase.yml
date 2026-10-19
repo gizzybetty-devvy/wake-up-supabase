@@ -2,7 +2,7 @@ name: Wake Up Supabase
 
 on:
   schedule:
-    - cron: "0 6 * * *"   # Runs automatically every day at 06:00 UTC
+    - cron: "0 6 * * 1"   # Runs automatically every day at 06:00 UTC
   workflow_dispatch:       # Allows manual trigger
 
 jobs:
